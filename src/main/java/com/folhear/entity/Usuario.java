@@ -1,9 +1,8 @@
 package com.folhear.entity;
 
 import com.folhear.entity.enums.TipoUsuario;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -16,7 +15,6 @@ import java.util.UUID;
 public class Usuario {
 
     @Id
-    @UuidGenerator
     @Column(columnDefinition = "uuid", updatable = false, nullable = false)
     private UUID id;
 

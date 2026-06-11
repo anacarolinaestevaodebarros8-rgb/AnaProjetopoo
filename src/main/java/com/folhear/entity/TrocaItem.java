@@ -1,8 +1,7 @@
 package com.folhear.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
 
 import java.util.UUID;
 
@@ -13,7 +12,6 @@ import java.util.UUID;
 public class TrocaItem {
 
     @Id
-    @UuidGenerator
     @Column(columnDefinition = "uuid", updatable = false, nullable = false)
     private UUID id;
 

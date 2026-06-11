@@ -1,9 +1,8 @@
 package com.folhear.entity;
 
 import com.folhear.entity.enums.StatusTransacao;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -14,7 +13,6 @@ import java.util.UUID;
 public class Transacao {
 
     @Id
-    @UuidGenerator
     @Column(columnDefinition = "uuid", updatable = false, nullable = false)
     private UUID id;
 

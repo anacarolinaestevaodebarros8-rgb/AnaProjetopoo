@@ -16,11 +16,12 @@
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/PontoEncontro.java
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/Avaliacao.java
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/Notificacao.java
-/workspaces/AnaProjetopoo/src/main/java/com/folhear/config/Jpaconfig.java
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/Livro.java
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/enums/TipoPonto.java
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/enums/StatusTransacao.java
+/workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/ListaDesejoItem.java
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/enums/TipoNotificacao.java
+/workspaces/AnaProjetopoo/src/main/java/com/folhear/config/JpaConfig.java
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/enums/StatusTroca.java
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/entity/Transacao.java
 /workspaces/AnaProjetopoo/src/main/java/com/folhear/config/SecurityConfig.java

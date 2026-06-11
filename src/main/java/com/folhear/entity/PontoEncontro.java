@@ -1,9 +1,8 @@
 package com.folhear.entity;
 
 import com.folhear.entity.enums.TipoPonto;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
 
 import java.util.UUID;
 
@@ -13,7 +12,6 @@ import java.util.UUID;
 public class PontoEncontro {
 
     @Id
-    @UuidGenerator
     @Column(columnDefinition = "uuid", updatable = false, nullable = false)
     private UUID id;
 

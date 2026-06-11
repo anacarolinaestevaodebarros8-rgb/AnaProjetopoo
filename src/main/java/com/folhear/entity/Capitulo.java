@@ -1,8 +1,7 @@
 package com.folhear.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.UuidGenerator;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -13,7 +12,6 @@ import java.util.UUID;
 public class Capitulo {
 
     @Id
-    @UuidGenerator(name = "UUID")
     @GeneratedValue(generator = "UUID")
     @Column(columnDefinition = "uuid", updatable = false, nullable = false)
     private UUID id;
