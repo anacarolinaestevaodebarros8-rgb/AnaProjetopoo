@@ -155,11 +155,14 @@ folhear/
 ### 1️⃣ Clone e Configure
 
 ```bash
-git clone https://github.com/seu-usuario/AnaProjetopoo.git
+git clone https://github.com/anacarolinaestevaodebarros8-rgb/AnaProjetopoo.git
 cd AnaProjetopoo
 
-# Copie o template de variáveis
-cp .env.example .env
+# Configure as variáveis de ambiente manualmente ou usando um template local
+# export SUPABASE_DB_PASSWORD="sua_senha_db"
+# export SUPABASE_ANON_KEY="eyJ..."
+# export SUPABASE_SERVICE_KEY="eyJ..."
+# export SUPABASE_JWT_SECRET="seu_jwt_secret"
 ```
 
 ### 2️⃣ Configure Variáveis de Ambiente
@@ -186,7 +189,7 @@ mvn spring-boot:run
 # Ou com seu IDE (F5 em VS Code com Java debugger)
 ```
 
-**URL da API:** `http://localhost:8080`
+**URL da API:** `http://localhost:8080/api`
 
 ---
 
@@ -361,7 +364,7 @@ Distribuído sob a license MIT. Ver `LICENSE` para mais detalhes.
 ## 📞 Suporte
 
 Para dúvidas ou sugestões:
-- Abra uma [Issue](https://github.com/seu-usuario/AnaProjetopoo/issues)
+- Abra uma [Issue](https://github.com/anacarolinaestevaodebarros8-rgb/AnaProjetopoo/issues)
 - Entre em contato via email
 
 ---
